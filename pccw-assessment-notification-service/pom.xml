@@ -83,6 +83,11 @@
                             <directory>${project.build.directory}</directory>
                             <include>${project.build.finalName}.jar</include>
                         </resource>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>fakeServer</directory>
+                            <include>fakeSMTP-2.0.jar</include>
+                        </resource>
                     </resources>
                 </configuration>
             </plugin>
